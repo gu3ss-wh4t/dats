@@ -1,0 +1,243 @@
+format = """
+$os$username$hostname$localip\
+$directory\
+$git_branch\
+$git_status\
+$lua\
+$python\
+$rust\
+$c\
+$cpp\
+$all\
+$sudo$character"""
+
+palette = 'idk'
+
+[username]
+style_user = "italic orange"
+style_root = "italic gold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = true
+format = '[$hostname]($style)'
+style = 'bold fg:green'
+trim_at = "."
+disabled = false
+
+[localip]
+ssh_only = true
+format = '[$localipv4]($style)'
+style = 'bold fg:green'
+disabled = false
+
+[os]
+disabled = false
+style = "magenta"
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+
+[directory]
+read_only = " 󰳌"
+truncation_length = 10
+truncate_to_repo = true
+style = "fg:red"
+format = "[ $path ]($style)"
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+
+[character]
+success_symbol = "[ ](gold)"
+error_symbol = "[ ](red)"
+vimcmd_symbol = "[■](italic dimmed green)"
+# not supported in zsh
+vimcmd_replace_one_symbol = "◌"
+vimcmd_replace_symbol = "□"
+vimcmd_visual_symbol = "▼"
+
+[env_var.VIMSHELL]
+format = "[$env_value]($style)"
+style = 'green italic'
+
+[cmd_duration]
+format = "󰕎[$duration]($style)"
+min_time = 1000
+show_milliseconds = false
+style = "italic fg:red"
+disabled = false
+
+[sudo]
+format = "[$symbol]($style)"
+style = "green"
+symbol = "  "
+disabled = false
+
+[lua]
+format = "[${symbol}${version}]($style)"
+version_format = "${raw}"
+symbol = " "
+style = "bold fg:cyan"
+
+[python]
+symbol = " "
+pyenv_version_name = true
+format = '[${symbol}(${version} )(\($virtualenv\) )]($style) '
+style = "bold gold"
+pyenv_prefix = "venv "
+python_binary = ["./venv/bin/python", "python", "python3", "python2"]
+detect_extensions = ["py"]
+version_format = "v${raw}"
+
+[rust]
+symbol = " "
+format = "[$symbol$version]($style) "
+version_format = "${raw}"
+style = "bold red"
+
+[docker_context]
+symbol = " "
+format = "[$symbol$context]($style) "
+style = "bold fg:cyan"
+only_with_files = true
+detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
+detect_folders = []
+disabled = false
+
+[nodejs]
+format = "[$version](bold green) "
+detect_files = ["package.json", ".node-version"]
+detect_folders = ["node_modules"]
+
+[git_branch]
+symbol = ""
+style = "fg:orange"
+format = '[$symbol $branch]($style)'
+
+[git_status]
+style = "fg:orange"
+format = '[$all_status$ahead_behind ]($style)'
+
+[c]
+symbol = " "
+style = "bg:color_blue"
+format = '[[$symbol($version)](fg:color_fg0 bg:color_blue)]($style)'
+
+[cpp]
+symbol = "󰙲 "
+style = "bg:color_blue"
+format = '[[$symbol($version)](fg:color_fg0 bg:color_blue)]($style)'
+
+[aws]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shlvl]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
+
+[palettes.idk]
+red = "#ff0586"
+green = "#06a07c"
+lime = "#b7ff59"
+yellow = "#fff359"
+purple = "#5b20fcff"
+magenta = "#c9a5ff"
+orange = "#fc8a20"
+cyan = "#59f6ff"
+gold = "#ffc400"

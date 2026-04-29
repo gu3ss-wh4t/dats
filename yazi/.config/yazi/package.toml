@@ -1,0 +1,59 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "88990a6"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "88990a6"
+hash = "2f08b8249b57737e7257298a3b2a2edc"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "88990a6"
+hash = "8da0b15a97b5dfd13941d1ecc617ac7c"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "88990a6"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "88990a6"
+hash = "270915fa8282a19908449530ff66f7e2"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "eca1861"
+hash = "e519d894e94ded741e06aae4d4775981"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "88990a6"
+hash = "8a7c58225816a163a6e8730c0adafbc8"
+
+[[plugin.deps]]
+use = "alberti42/faster-piper"
+rev = "8b794bf"
+hash = "fac71f8ce9447ad509b5aad9e0d8c694"
+
+[[plugin.deps]]
+use = "ndtoan96/ouch"
+rev = "594b8a2"
+hash = "c9e628fc0312d198db22ae2fa74883b"
+
+[[plugin.deps]]
+use = "grappas/wl-clipboard"
+rev = "e9a38e4"
+hash = "6b8e5d6b09626facec713923d3ddb54b"
+
+[[plugin.deps]]
+use = "llanosrocas/yaziline"
+rev = "d9cc2cb"
+hash = "b6073aadf2f9a1d5389a6d389f33f69c"
+
+[[flavor.deps]]
+use = "Miuzarte/synthwave84"
+rev = "865bef9"
+hash = "598126216cc2ab55f98955788f0eb3f3"

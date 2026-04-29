@@ -1,0 +1,57 @@
+[general]
+live_config_reload = true
+
+[window]
+padding = { x = 0, y = 0 }
+dynamic_padding = true
+decorations = "none"
+
+[env]
+TERM = "xterm-256color"
+
+[terminal]
+osc52 = "CopyPaste"
+
+[font]
+normal = { family = "CaskaydiaCove NF", style = "Light" }
+size = 15
+
+[cursor]
+style = { shape = "underline", blinking = "On" }
+blink_interval = 550
+blink_timeout = 0
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#000000"
+foreground = "#dddbf9"
+bright_foreground = "#ff7800"
+
+[colors.cursor]
+cursor = "#ff7800"
+
+[colors.selection]
+text = "CellForeground"
+background = "#515c7e"
+
+[colors.normal]
+black = "#363b54"
+red = "#ff0586"
+green = "#41a6b5"
+yellow = "#ff7800"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#787c99"
+
+[colors.bright]
+black = "#363b54"
+red = "#ff0586"
+green = "#6ca30d"
+yellow = "#e4d729"
+blue = "#02a6ff"
+magenta = "#bb9af7"
+cyan = "#59f6ff"
+white = "#787c99"

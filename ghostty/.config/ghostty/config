@@ -1,0 +1,7 @@
+font-family = CaskaydiaCove Nerd Font
+font-feature = +liga, +calt, +dlig
+font-size = 14
+bold-is-bright = true
+cursor-style = underline
+cursor-style-blink = true
+theme = theme

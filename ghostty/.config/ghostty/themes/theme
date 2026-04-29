@@ -1,0 +1,26 @@
+# NORMAL
+palette = 0=#000000
+palette = 1=#ff5555
+palette = 2=#55ff55
+palette = 3=#ffff55
+palette = 4=#5555ff
+palette = 5=#ff55ff
+palette = 6=#55ffff
+palette = 7=#a277ff
+
+# BRIGHT
+palette = 8=#a277ff
+palette = 9=#ff0586
+palette = 10=#30fc96
+palette = 11=#e5ff00
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#fc8a20
+palette = 15=#ffffff
+
+# DEFAULTS
+background = #000000
+foreground = #ffffff
+cursor-color = #a277ff
+cursor-text = #ffffff
+selection-background = #b5d5ff

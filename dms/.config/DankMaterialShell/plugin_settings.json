@@ -1,0 +1,27 @@
+{
+  "qcalCalendar": {
+    "enabled": true
+  },
+  "emojiLauncher": {
+    "enabled": true
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  },
+  "polyglot": {
+    "enabled": true,
+    "sourceLanguage": "English",
+    "targetLanguage": "Russian",
+    "sourceText": "test",
+    "targetText": ""
+  },
+  "developerUtilities": {
+    "enabled": true
+  },
+  "dankKDEConnect": {
+    "enabled": false
+  },
+  "dankObsidian": {
+    "enabled": true
+  }
+}
