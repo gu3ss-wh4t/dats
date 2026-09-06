@@ -37,3 +37,8 @@ hash = "6ea5f37c7f219671ec504cb8311f889d"
 use = "CFY98/synthwave84"
 rev = "b7bb92e"
 hash = "71390657660b3639d1a3caec3f734511"
+
+[[flavor.deps]]
+use = "ZimCodes/yazi-flavors:obsidian-soft-glow"
+rev = "c64630b"
+hash = "2d6c03ed1a2133793a5a1371ab1d2573"
