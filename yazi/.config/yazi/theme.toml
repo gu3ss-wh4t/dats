@@ -1,2 +1,13 @@
 [flavor]
 dark = "synthwave84"
+
+[git]
+unknown_sign = " "
+ignored_sign = "!"
+untracked_sign = "?"
+unstaged_sign = "M"
+staged_sign = "A"
+added_sign = "A"
+deleted_sign = "D"
+updated_sign = "M"
+clean_sign = "✔"

@@ -1,59 +1,39 @@
 [[plugin.deps]]
-use = "yazi-rs/plugins:smart-enter"
-rev = "88990a6"
-hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+use = "alchezar/age-badge"
+rev = "8d49457"
+hash = "c0d9ae7b74acc42fba3106de42a00561"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:diff"
-rev = "88990a6"
-hash = "2f08b8249b57737e7257298a3b2a2edc"
+use = "boydaihungst/file-extra-metadata"
+rev = "8bb639d"
+hash = "8c5f14c09c981a496afaab5184e4aa08"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:chmod"
-rev = "88990a6"
-hash = "8da0b15a97b5dfd13941d1ecc617ac7c"
+use = "walldmtd/fs-usage"
+rev = "1b42083"
+hash = "28ac3655541321f006c25463419d719a"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "88990a6"
-hash = "3996fc74044bc44144b323686f887e1"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:git"
-rev = "88990a6"
-hash = "270915fa8282a19908449530ff66f7e2"
+rev = "4dc7f1b"
+hash = "f281261ff04ad7ec867c3f802a50835f"
 
 [[plugin.deps]]
 use = "Rolv-Apneseth/starship"
-rev = "eca1861"
-hash = "e519d894e94ded741e06aae4d4775981"
+rev = "ea92cf4"
+hash = "9776f378459072b6c2875eae5addc49d"
 
 [[plugin.deps]]
-use = "yazi-rs/plugins:toggle-pane"
-rev = "88990a6"
-hash = "8a7c58225816a163a6e8730c0adafbc8"
+use = "yazi-rs/plugins:git"
+rev = "4dc7f1b"
+hash = "5bb0bfab901d3601c370eafdd66edd31"
 
 [[plugin.deps]]
-use = "alberti42/faster-piper"
-rev = "8b794bf"
-hash = "fac71f8ce9447ad509b5aad9e0d8c694"
-
-[[plugin.deps]]
-use = "ndtoan96/ouch"
-rev = "594b8a2"
-hash = "c9e628fc0312d198db22ae2fa74883b"
-
-[[plugin.deps]]
-use = "grappas/wl-clipboard"
-rev = "e9a38e4"
-hash = "6b8e5d6b09626facec713923d3ddb54b"
-
-[[plugin.deps]]
-use = "llanosrocas/yaziline"
-rev = "d9cc2cb"
-hash = "b6073aadf2f9a1d5389a6d389f33f69c"
+use = "Lil-Dank/lazygit"
+rev = "e73fd74"
+hash = "6ea5f37c7f219671ec504cb8311f889d"
 
 [[flavor.deps]]
-use = "Miuzarte/synthwave84"
-rev = "865bef9"
-hash = "598126216cc2ab55f98955788f0eb3f3"
+use = "CFY98/synthwave84"
+rev = "b7bb92e"
+hash = "71390657660b3639d1a3caec3f734511"

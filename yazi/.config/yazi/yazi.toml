@@ -1,87 +1,25 @@
 [mgr]
 show_hidden = true
-linemode = "size"
-ratio = [2, 3, 4]
+show_symlink = true
+ratio = [2, 4, 3]
 
-# * git
+# ! Plugins
+# # File-extra-metadata
+# ya pkg add boydaihungst/file-extra-metadata
+[plugin]
+append_previewers = [{ url = "*", run = "file-extra-metadata" }]
+
+# Setup keybind for spotter: https://github.com/sxyazi/yazi/pull/1802
+append_spotters = [{ url = "*", run = "file-extra-metadata" }]
+
+# # git
+# ya pkg add yazi-rs/plugins:git
 [[plugin.prepend_fetchers]]
-id = "git"
 url = "*"
 run = "git"
+group = "git"
 
 [[plugin.prepend_fetchers]]
-id = "git"
 url = "*/"
 run = "git"
-
-# * faster-piper configuration for multiple file previewers
-[previewers]
-# Image Previewer
-[[previewers.image]]
-name = "Image Previewer"
-command = "feh"                               # Change to your preferred image viewer
-file_types = [".jpg", ".png", ".gif", ".bmp"]
-
-# PDF Previewer
-[[previewers.pdf]]
-name = "PDF Previewer"
-command = "evince"     # Change to your preferred PDF viewer
-file_types = [".pdf"]
-
-# Text Previewer
-[[previewers.text]]
-name = "Text Previewer"
-command = "bat"                                        # Provide syntax highlighting
-file_types = [".txt", ".md", ".json", ".xml", ".yaml"]
-
-# Video Previewer
-[[previewers.video]]
-name = "Video Previewer"
-command = "mpv"                       # Change to your preferred video player
-file_types = [".mp4", ".mkv", ".avi"]
-
-# Audio Previewer
-[[previewers.audio]]
-name = "Audio Previewer"
-command = "mpv"                        # Change to your preferred audio player
-file_types = [".mp3", ".wav", ".flac"]
-
-# Markdown Previewer
-[[previewers.markdown]]
-name = "Markdown Previewer"
-command = "mdp"             # Use a markdown previewer
-file_types = [".md"]
-
-# HTML Previewer
-[[previewers.html]]
-name = "HTML Previewer"
-command = "vivaldi"            # Change to your preferred web browser
-file_types = [".html", ".htm"]
-
-# Office Document Previewer
-[[previewers.office]]
-name = "Office Document Previewer"
-command = "libreoffice --view"
-file_types = [".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx"]
-
-# Performance settings
-[performance]
-cache = true
-parallel_processing = true
-max_connections = 10       # Adjust based on system capabilities
-
-# Logging settings
-[logging]
-level = "info"              # Log verbosity level
-output = "faster-piper.log"
-
-# * ouch archive
-[[plugin.prepend_previewers]]
-mime = "application/{*zip,tar,bzip2,7z*,rar,xz,zstd,java-archive}"
-run = "ouch --archive-icon=' ' --show-file-icons --list-view"
-[opener]
-extract = [
-  # { run = 'ouch d -y %*', desc = "Extract here with ouch", for = "windows" },
-  { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
-]
-
+group = "git"

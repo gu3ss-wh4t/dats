@@ -1,45 +1,6 @@
-# * smart-enter
+# # lazygit
+#  ya pkg add Lil-Dank/lazygit
 [[mgr.prepend_keymap]]
-on = "l"
-run = "plugin smart-enter"
-desc = "Enter the child directory, or open the file"
-
-# * diff
-[[mgr.prepend_keymap]]
-on = "<C-d>"
-run = "plugin diff"
-desc = "Diff the selected with the hovered file"
-
-# * chmod
-[[mgr.prepend_keymap]]
-on = ["c", "m"]
-run = "plugin chmod"
-desc = "Chmod on selected files"
-
-# NOTE 'toggle-pane' plugin is necessary for nvim to open Yazi 
-# * toggle-pane
-[[mgr.prepend_keymap]]
-on = "T"
-run = "plugin toggle-pane max-preview"
-desc = "Maximize or restore the preview pane"
-
-[[mgr.prepend_keymap]]
-on = "T"
-run = "plugin toggle-pane min-preview"
-desc = "Show or hide the preview pane"
-
-# [preview]
-# # Change them to your desired values
-# max_width  = 1000
-# max_height = 1000
-
-# * ouch
-[[mgr.prepend_keymap]]
-on = ["C"]
-run = "plugin ouch 7z"
-desc = "Compress with ouch"
-
-# * Yank to a clipboard
-[[mgr.prepend_keymap]]
-on = "<C-y>"
-run = ["plugin wl-clipboard"]
+on = ["g", "i"]
+run = "plugin lazygit"
+desc = "run lazygit"
