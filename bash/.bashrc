@@ -3,16 +3,10 @@
 PS1='[\u@\h \W]\$ '
 
 # Exports
-# export TERMINAL=alacritty
 export TERM="xterm-256color"
-# export PAGER="bat"
 export MANPAGER="bat -l man -p"
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
-
-# AniCLI Settings
-export ANI_CLI_MODE=dub
-export ANI_CLI_QUALITY=best
 
 # Wikiman
 source /usr/share/wikiman/widgets/widget.bash
