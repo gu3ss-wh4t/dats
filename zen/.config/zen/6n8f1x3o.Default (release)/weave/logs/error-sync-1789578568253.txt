@@ -1,0 +1,150 @@
+1789559262912	Sync.LogManager	DEBUG	Flushing file log
+1789559262913	Sync.LogManager	DEBUG	Log cleanup threshold time: 1788695262913
+1789559262914	Sync.LogManager	DEBUG	Done deleting files.
+1789559544472	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789559544472	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789559544472	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789559554471	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1789559554472	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789559554472	Sync.Service	INFO	Starting sync at 2026-09-16 14:52:34 in browser session NbnZg9j2GJ64
+1789559554475	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789559554475	Sync.Status	INFO	Resetting Status.
+1789559554475	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1789559554476	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789559554476	Sync.SyncAuthManager	INFO	Getting sync key
+1789559554477	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1789559554477	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789559554477	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1789559554477	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1789559554477	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1789559554477	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1789559554478	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1789578267513	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1789578267513	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789578267513	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789578267517	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789578267529	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1789578267529	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1789578267529	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1789578267530	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789578269531	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789578269531	Sync.Service	INFO	Starting sync at 2026-09-16 20:04:29 in browser session NbnZg9j2GJ64
+1789578269531	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1401:6
+sync/<@service.sys.mjs:1375:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1376:7
+1789578269531	Sync.Service	INFO	Cannot start sync: already syncing?
+1789578272837	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1789578272838	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1789578272839	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789578272841	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789578272841	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789578272841	Sync.Service	INFO	Starting sync at 2026-09-16 20:04:32 in browser session NbnZg9j2GJ64
+1789578272842	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1401:6
+sync/<@service.sys.mjs:1375:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1376:7
+permitUnload@browser-custom-element.mjs:1793:19
+_beginRemoveTab@tabbrowser.js:6125:40
+removeTab@tabbrowser.js:5962:15
+removeCurrentTab@tabbrowser.js:5886:12
+closeTabOrWindow@browser-commands.js:407:14
+@browser-sets.js:80:29
+1789578272842	Sync.Service	INFO	Cannot start sync: already syncing?
+1789578274717	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789578274910	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789578276608	Sync.RemoteTabs	INFO	Generating tab list with filter
+1789578276611	Sync.RemoteTabs	DEBUG	Processing client: {"id":"E1ZD3BVt8NNU","type":"client","name":"Administrator’s Zen on WIN-NOJEEADGC3M","clientType":"desktop","lastModified":1789503268300,"tabs":[]}
+1789578276612	Sync.RemoteTabs	INFO	Final tab list has 1 clients with 4 tabs.
+1789578277266	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578277281	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578279927	Sync.Engine.Tabs	INFO	update_local_state has 0 tab entries
+1789578279927	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789578279927	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789578279934	Sync.Engine.Tabs	INFO	prepare_for_upload found 0 tabs
+1789578279936	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789578279936	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789578279936	FirefoxAccounts	DEBUG	getCachedToken returning null for expired token
+1789578279938	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1789578279938	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1789578292736	Services.Common.RESTRequest	DEBUG	Channel redirect: https://api.accounts.firefox.com/v1/oauth/token, https://api.accounts.firefox.com/v1/oauth/token, 4
+1789578292736	Services.Common.RESTRequest	DEBUG	Channel redirect: https://api.accounts.firefox.com/v1/oauth/token, https://api.accounts.firefox.com/v1/oauth/token, internal = true
+1789578292742	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/oauth/token failed: 2152398920 - NS_ERROR_PROXY_CONNECTION_REFUSED
+1789578292742	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_PROXY_CONNECTION_REFUSED"  nsresult: "0x804b0048 (NS_ERROR_PROXY_CONNECTION_REFUSED)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:478
+1789578292742	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+request()@resource://services-common/hawkclient.sys.mjs:231
+1789578292743	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+request()@resource://services-common/hawkclient.sys.mjs:239
+1789578292743	Hawk	DEBUG	(Response) /oauth/token: code: null - Status text: null
+1789578292743	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:247
+1789578292743	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:308
+request()@resource://services-common/hawkclient.sys.mjs:248
+1789578292743	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 630"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:630
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:253
+1789578292743	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:253
+1789578292744	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 615"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:615
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:253
+1789578292744	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 662"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:662
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:253
+1789578292744	FirefoxAccounts	ERROR	error POSTing /oauth/token: {"error":{},"errorString":"[Exception... \"NS_ERROR_PROXY_CONNECTION_REFUSED\"  nsresult: \"0x804b0048 (NS_ERROR_PROXY_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1789578292744	FirefoxAccounts	ERROR	Background refresh of profile failed: {"error":{},"errorString":"[Exception... \"NS_ERROR_PROXY_CONNECTION_REFUSED\"  nsresult: \"0x804b0048 (NS_ERROR_PROXY_CONNECTION_REFUSED)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]","message":null,"code":null,"errno":null}
+1789578292852	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789578297946	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1789578315027	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789578315501	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578315577	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578315582	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578320060	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1789578320860	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789578323730	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789578325871	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1789578566649	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789578566650	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1789578566650	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1789578566650	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789578566651	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789578566651	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789578566651	Sync.Collection	DEBUG	POST Length: 279
+1789578566652	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789578566652	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789578566652	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789578566652	FirefoxAccounts	DEBUG	getCachedToken returning null for expired token
+1789578566658	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1789578566658	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1789578566660	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1789578567106	Sync.Collection	DEBUG	POST fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/storage/tabs
+1789578567106	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/storage/tabs failed with status 401
+1789578567106	Sync.Engine.Tabs	WARN	quick-write POST failed: 401
+1789578567106	Sync.Engine.Tabs	WARN	quicksync sync failed: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/storage/tabs","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 16 Sep 2026 17:09:28 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-muc13956-MUC","x-timer":"S1789578568.015034,VS0,VE165","x-weave-timestamp":"1789578568.09"},"obj":0}
+1789578567106	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1789578567159	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1789578567159	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1789578567159	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 841
+1789578568248	Sync.Resource	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections
+1789578568248	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections failed with status 401
+1789578568248	Sync.Service	INFO	Logging out
+1789578568248	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1789578568248	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1789578568248	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1789578568248	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1789578568251	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 16 Sep 2026 17:09:29 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-muc13975-MUC","x-timer":"S1789578569.139157,VS0,VE165","x-weave-timestamp":"1789578569.22"},"obj":0}
+1789578568251	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789578568252	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1789578568253	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 16 Sep 2026 17:09:29 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-muc13975-MUC","x-timer":"S1789578569.139157,VS0,VE165","x-weave-timestamp":"1789578569.22"},"obj":0}

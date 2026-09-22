@@ -1,0 +1,16 @@
+1789580262577	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789580639308	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789580639308	Sync.Service	INFO	Starting sync at 2026-09-16 20:43:59 in browser session NbnZg9j2GJ64
+1789580639311	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789580639311	Sync.Status	INFO	Resetting Status.
+1789580639311	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789580639312	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789580639312	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789580639312	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789580639312	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789580639313	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789580639439	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1789580639506	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1789580639507	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1789580639508	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789580639509	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

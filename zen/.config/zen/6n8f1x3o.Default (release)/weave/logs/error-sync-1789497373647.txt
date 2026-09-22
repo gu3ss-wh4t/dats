@@ -1,0 +1,19 @@
+1789497115990	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789497373382	Sync.Service	DEBUG	User-Agent: Zen/1.22b (Linux x86_64) FxSync/1.157.0.20260904060728.desktop
+1789497373382	Sync.Service	INFO	Starting sync at 2026-09-15 21:36:13 in browser session NbnZg9j2GJ64
+1789497373384	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789497373385	Sync.Status	INFO	Resetting Status.
+1789497373385	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789497373386	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789497373386	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789497373386	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789497373386	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789497373387	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789497373642	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1789497373643	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1789497373643	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections failed: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available
+1789497373644	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1789497373644	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1789497373646	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available
+1789497373646	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789497373647	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The connection was refused"  nsresult: "0x804b000d (NS_ERROR_CONNECTION_REFUSED)"  location: "<unknown>"  data: no] No traceback available
