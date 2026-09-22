@@ -203,7 +203,7 @@
       "shadowColorMode": "default",
       "shadowCustomColor": "#000000",
       "clickThrough": false,
-      "hoverPopouts": true,
+      "hoverPopouts": false,
       "hoverPopoutDelay": 150,
       "island": false,
       "islandFloating": false,
