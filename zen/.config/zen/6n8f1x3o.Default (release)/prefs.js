@@ -14,7 +14,7 @@ user_pref("app.normandy.first_run", false);
 user_pref("app.normandy.migrationsApplied", 12);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1791354804);
 user_pref("app.update.lastUpdateTime.background-update-timer", 1791376404);
-user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1791372805);
+user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 1791376524);
 user_pref("app.update.lastUpdateTime.glean-addons-daily", 1791354804);
 user_pref("app.update.lastUpdateTime.region-update-timer", 1791354804);
 user_pref("app.update.lastUpdateTime.rs-experiment-loader-timer", 1791367855);
