@@ -11,11 +11,17 @@
     }
   },
   "runUserMatugenTemplates": false,
+  "popupTransparency": 0,
+  "floatingWindowTransparency": 0,
+  "floatingWindowForegroundLayers": false,
+  "floatingWindowForegroundTransparency": 0.5,
   "widgetBackgroundColor": "s",
   "buttonColorMode": "surfaceVariant",
   "cornerRadius": 10,
   "niriLayoutRadiusOverride": 5,
   "niriLayoutBorderSize": 1,
+  "keyboardLayouts": "us,ru",
+  "keyboardOptions": "grp:alt_shift_toggle",
   "firstDayOfWeek": 1,
   "showWeekNumber": true,
   "calendarBackend": "dankcal",
@@ -25,6 +31,7 @@
   "springBounce": 2,
   "animationVariant": 1,
   "motionEffect": 2,
+  "blurEnabled": true,
   "blurForegroundLayers": false,
   "foregroundLayerTransparency": 0.5,
   "blurLayerOutlineOpacity": 0.2,
@@ -98,9 +105,13 @@
   },
   "launcherLogoMode": "custom",
   "launcherLogoCustomPath": "/home/asc11/Pictures/media/NeonIcons/fire-96.png",
+  "fontFamily": "Montserrat Alternates Medium",
+  "monoFontFamily": "CaskaydiaCove Nerd Font Mono",
   "fontWeight": 300,
-  "fontScale": 1.1,
+  "fontScale": 1.15,
   "textRenderType": 1,
+  "useSystemSoundTheme": true,
+  "soundLogin": true,
   "acProfileName": "2",
   "fadeToLockGracePeriod": 15,
   "fadeToDpmsGracePeriod": 15,
@@ -127,6 +138,8 @@
     "softreboot",
     "hibernate"
   ],
+  "updaterCheckOnStart": true,
+  "updaterIntervalSeconds": 86400,
   "barConfigs": [
     {
       "id": "default",
@@ -152,9 +165,18 @@
       ],
       "rightWidgets": [
         "systemTray",
-        "clipboard",
-        "cpuUsage",
-        "memUsage",
+        {
+          "id": "cpuUsage",
+          "enabled": true,
+          "minimumWidth": false
+        },
+        {
+          "id": "memUsage",
+          "enabled": true,
+          "minimumWidth": false,
+          "showInGb": true,
+          "showSwap": true
+        },
         "notificationButton",
         "battery",
         "controlCenterButton"
@@ -165,8 +187,8 @@
       "barLengthPadding": 0,
       "bottomGap": 0,
       "attachToScreenEdge": false,
-      "transparency": 1,
-      "widgetTransparency": 1,
+      "transparency": 0.02,
+      "widgetTransparency": 0,
       "squareCorners": false,
       "noBackground": true,
       "maximizeWidgetIcons": false,
