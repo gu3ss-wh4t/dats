@@ -8,7 +8,7 @@
     "coreHoursEnd": 17,
     "coreHoursStart": 9,
     "customThemeFile": "",
-    "defaultCalendarId": "",
+    "defaultCalendarId": "741bd1c8-723d-4276-aa62-9e682d611630",
     "defaultEventDurationMinutes": 30,
     "defaultReminderMinutes": 10,
     "dismissedAccountNotices": [
@@ -28,7 +28,7 @@
     "sidebarCollapsed": true,
     "sidebarWidth": 240,
     "snoozeMinutes": 5,
-    "syncIntervalMinutes": 30,
+    "syncIntervalMinutes": 5,
     "themeMode": "auto",
     "timeFormat": "12h",
     "timeLocale": "",

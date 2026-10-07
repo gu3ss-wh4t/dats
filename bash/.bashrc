@@ -1,23 +1,23 @@
-# If not running interactively, don't do anything
+#$ If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 
-# Exports
+#@ Exports
 export TERM="xterm-256color"
 export MANPAGER="bat -l man -p"
 export VISUAL="nvim"
 export EDITOR="$VISUAL"
 
-# Wikiman
+#@ Wikiman
 source /usr/share/wikiman/widgets/widget.bash
 
-# starship
+#@ starship
 eval "$(starship init bash)"
 
-# zoxide
+#@ zoxide
 eval "$(zoxide init bash)"
 
-# yazi
+#@ yazi
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
@@ -26,17 +26,16 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-# eza
+#@ eza
 alias ls="eza -l --color-scale=all --icons=always --group-directories-first --git --git-repos --time-style '+%_d %b %y %_I.%M %p'"
 alias la="eza -l --color-scale=all --icons=always --group-directories-first --git --git-repos --time-style '+%_d %b %y %_I.%M %p' -a"
 alias ll="eza -l --color-scale=all --icons=always --group-directories-first --git --git-repos --time-style '+%_d %b %y %_I.%M %p' --total-size -a"
 
-# nvim
+#@ nvim
 alias v="nvim"
 
-# lazygit
+#@ lazygit
 alias lg="lazygit"
 
-# # Created by `pipx` on 2026-01-31 14:57:36
-# export PATH="$PATH:/home/idk/.local/bin"
-# . "$HOME/.cargo/env"
+#@ custom aliases
+alias snaphome='sudo snapper -c home create --description "Manual Save"'

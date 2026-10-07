@@ -1,0 +1,69 @@
+1791355141774	Sync.LogManager	DEBUG	Flushing file log
+1791355141777	Sync.LogManager	DEBUG	Log cleanup threshold time: 1790491141777
+1791355141781	Sync.LogManager	DEBUG	Done deleting files.
+1791355453334	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355453486	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355458335	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355554372	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355554381	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355554412	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355555196	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355556092	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355559445	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355560865	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355561481	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355565919	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355580494	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355581080	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355585030	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355585559	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355585639	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355590639	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355592078	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355597197	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355705299	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355705317	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355710689	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1791355741774	Sync.Service	DEBUG	User-Agent: Zen/1.23b (Linux x86_64) FxSync/1.159.0.20261002114451.desktop
+1791355741774	Sync.Service	INFO	Starting sync at 2026-10-07 09:49:01 in browser session 5_TAmkG1DnQx
+1791355741774	Sync.Service	DEBUG	In sync: should login.
+1791355741774	Sync.Service	INFO	User logged in successfully - verifying login.
+1791355741775	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1791355741775	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1791355741775	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1791355741775	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1791355741775	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1791355741775	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1791355741775	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1791355741775	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1791355741775	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1791355742045	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1791355825174	Sync.RemoteTabs	INFO	Generating tab list with filter
+1791355825176	Sync.Engine.Tabs	DEBUG	tabs storage db: opening database
+1791355825176	Sync.Engine.Tabs	DEBUG	tabs storage db: checking if initialization is necessary
+1791355825176	Sync.Engine.Tabs	DEBUG	tabs storage db: preparing
+1791355825177	Sync.Engine.Tabs	DEBUG	tabs storage db: finishing writable database open
+1791355825177	Sync.Engine.Tabs	DEBUG	tabs storage db: database open successful
+1791355825177	Sync.Engine.Tabs	INFO	tabs storage is opening an existing database
+1791355825177	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: E1ZD3BVt8NNU
+1791355825177	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1791355829361	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1791355829369	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355830087	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355831274	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355831343	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355831346	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355831729	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355831971	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1791355832337	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1791355832337	Sync.Service	DEBUG	verifyLogin failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1791355832337	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1791355832337	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1791355832337	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1791355832337	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1791355832337	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1791355832337	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1791355832338	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1791355832338	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.sys.mjs:1070:15) JS Stack trace: onNotify@service.sys.mjs:1070:15
+1791355832338	Sync.Service	DEBUG	Not syncing: login returned false.
+1791355832338	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

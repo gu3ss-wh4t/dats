@@ -79,6 +79,7 @@
   "dankLauncherV2IncludeFoldersInAll": true,
   "spotlightBarShowModeChips": true,
   "useAutoLocation": true,
+  "weatherEnabled": false,
   "cursorSettings": {
     "theme": "ComixCursors-Opaque-Black",
     "size": 12,
@@ -110,6 +111,7 @@
   "notificationCompactMode": true,
   "notificationShowTimeoutBar": true,
   "notificationAnimationSpeed": 4,
+  "notificationFocusedMonitor": true,
   "osdAlwaysShowValue": true,
   "osdPosition": 6,
   "osdMediaPlaybackEnabled": true,
@@ -133,11 +135,11 @@
       "position": 0,
       "screenPreferences": [
         {
-          "name": "DVI-D-1",
+          "name": "DP-1",
           "model": "C24F390"
         }
       ],
-      "showOnLastDisplay": true,
+      "showOnLastDisplay": false,
       "leftWidgets": [
         "launcherButton",
         "workspaceSwitcher",

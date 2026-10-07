@@ -1,0 +1,65 @@
+1791371728417	Sync.LogManager	DEBUG	Flushing file log
+1791371728418	Sync.LogManager	DEBUG	Log cleanup threshold time: 1790507728418
+1791371728419	Sync.LogManager	DEBUG	Done deleting files.
+1791371765227	Sync.RemoteTabs	INFO	Generating tab list with filter
+1791371765229	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: E1ZD3BVt8NNU
+1791371765229	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: shSkIBmQ5A-9
+1791371765229	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1791371765929	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write - bumping score
+1791371765938	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1791371772318	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1791371788776	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371830870	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371840809	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371844408	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371851143	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371855445	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371861943	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371867528	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371875734	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1791371878684	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1791371888606	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371892677	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371942976	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791371998611	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791372033693	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1791372125692	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but conditions aren't met for a quick write or a score bump
+1791375331548	Sync.Service	DEBUG	User-Agent: Zen/1.23b (Linux x86_64) FxSync/1.159.0.20261002114451.desktop
+1791375331548	Sync.Service	INFO	Starting sync at 2026-10-07 15:15:31 in browser session oTl3NRLbQlh4
+1791375331550	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1791375331550	Sync.Status	INFO	Resetting Status.
+1791375331550	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1791375331550	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1791375331550	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1791375331551	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1791375331551	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1791375331551	Sync.SyncAuthManager	INFO	Getting sync key
+1791375331551	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1791375331551	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1791375331551	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1791375331551	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1791375331551	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1791375331551	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1791375331551	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1791375331551	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1791375390561	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398862 - NS_ERROR_NET_TIMEOUT
+1791375390561	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1791375390561	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1791375390561	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1791375390562	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1791375390562	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1791375390562	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1791375390847	Sync.Resource	DEBUG	GET fail 401 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections
+1791375390847	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections failed with status 401
+1791375390847	Sync.Service	INFO	Logging out
+1791375390847	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1791375390847	Sync.ErrorHandler	INFO	Got 401 response; resetting clusterURL.
+1791375390847	Sync.ErrorHandler	DEBUG	New mid-sync 401 failure. Making a note.
+1791375390847	Sync.ErrorHandler	INFO	Attempting to schedule another sync.
+1791375390847	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1791375390848	Sync.ErrorHandler	ERROR	Sync encountered an error: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 07 Oct 2026 12:16:30 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-bma-essb1270028-BMA","x-timer":"S1791375391.668837,VS0,VE169","x-weave-timestamp":"1791375390.75"},"obj":0}
+1791375390849	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1791375390849	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1791375390849	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"0","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/216589962/info/collections","status":401,"success":false,"headers":{"accept-ranges":"bytes","content-length":"1","content-type":"application/json","date":"Wed, 07 Oct 2026 12:16:30 GMT","server":"nginx/1.22.0","vary":"Origin, Access-Control-Request-Method, Access-Control-Request-Headers","via":"1.1 google, 1.1 varnish","x-cache":"MISS","x-cache-hits":"0","x-firefox-spdy":"h2","x-served-by":"cache-bma-essb1270028-BMA","x-timer":"S1791375391.668837,VS0,VE169","x-weave-timestamp":"1791375390.75"},"obj":0}

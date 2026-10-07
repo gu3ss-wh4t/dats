@@ -5,3 +5,4 @@ bold-is-bright = true
 cursor-style = underline
 cursor-style-blink = true
 theme = Dark Pastel
+confirm-close-surface = false

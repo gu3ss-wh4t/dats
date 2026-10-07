@@ -6,3 +6,28 @@ window-rule {
     match app-id="^com.danklinux.dms$"
     open-floating true
 }
+
+// @id=wr_1791367926130433952 @name=Happ
+window-rule {
+    match app-id="^Happ$"
+    open-on-output "DP-1"
+}
+
+// @id=wr_1791371134208752279 @name=com.mitchellh.ghostty
+window-rule {
+    match app-id="^com.mitchellh.ghostty$"
+    open-on-output "DP-1"
+}
+
+// @id=wr_1791371149992899942 @name=nemo
+window-rule {
+    match app-id="^nemo$"
+    open-on-output "DP-1"
+}
+
+// @id=wr_1791371734487799075 @name=Stremio
+window-rule {
+    match app-id="^Stremio$"
+    open-fullscreen true
+    open-on-output "HDMI-A-1"
+}
