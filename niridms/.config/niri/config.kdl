@@ -2,42 +2,42 @@
 // "/-" comments out the following node.
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
+
 config-notification {
     disable-failed
 }
-
 gestures {
     hot-corners {
         off
     }
 }
 
+
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
+
 input {
     keyboard {
         xkb {
-            // You can set rules, model, layout, variant and options.
-            // For more information, see xkeyboard-config(7).
-
-            // For example:
-            // layout "us,ru"
-            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
-
-            // If this section is empty, niri will fetch xkb settings
-            // from org.freedesktop.locale1. You can control these using
-            // localectl set-x11-keymap.
 
             layout "us,ru"
-            options "caps:swapescape"
+            options "caps:swapescape, grp:alt_shift_toggle"
 
         }
 
         // Enable numlock on startup, omitting this setting disables it.
         numlock
     }
-
+    mouse {
+        accel-speed 0.0
+    }
+    touchpad {
+        tap
+        accel-speed 0.0
+        natural-scroll
+        dwt
+    }
     trackpoint {
         // off
         // natural-scroll
@@ -53,15 +53,18 @@ input {
     // warp-mouse-to-focus
 
     // Focus windows and outputs automatically when moving the mouse into them.
+
     // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
     // focus-follows-mouse max-scroll-amount="0%"
 }
+
 
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
 // The built-in laptop monitor is usually called "eDP-1".
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
+
 output "DP-1" { 
     transform "270"
     layout {
@@ -72,9 +75,11 @@ output "DP-1" {
     }
 }
 
+
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
+
 layout {
     focus-ring {
         active-gradient from="#a64dffb5" to="#ff6600bb" angle=45
@@ -101,8 +106,10 @@ layout {
         color "#ff660080"
     }
 
+
     // Set gaps around windows in logical pixels.
     background-color "transparent"
+
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
     //   or right edge of the screen.
@@ -110,7 +117,9 @@ layout {
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
     center-focused-column "never"
+
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
+
     preset-column-widths {
         // Proportion sets the width as a fraction of the output width, taking gaps into account.
         // For example, you can perfectly fit four windows sized "proportion 0.25" on an output.
@@ -122,16 +131,21 @@ layout {
         // fixed 1920
     }
 
+
     // You can also customize the heights that "switch-preset-window-height" (Mod+Shift+R) toggles between.
+
     // preset-window-heights { }
+
     // You can change the default width of the new windows.
     default-column-width { proportion 0.5; }
+
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
+
     // By default focus ring and border are rendered as a solid background rectangle
     // behind windows. That is, they will show up through semitransparent windows.
     // This is because windows using client-side decorations can have an arbitrary shape.
-    //
+
     // If you don't like that, you should uncomment `prefer-no-csd` below.
     // Niri will draw focus ring and border *around* windows that agree to omit their
     // client-side decorations.
@@ -152,11 +166,13 @@ overview {
     }
 }
 
+
 // Add lines like this to spawn processes at startup.
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
+
 environment {
   XDG_CURRENT_DESKTOP "niri"
 }
@@ -198,11 +214,13 @@ animations {
     }
 }
 
+
 // Window rules let you adjust behavior for individual windows.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 // Work around WezTerm's initial configure bug
 // by setting an empty default-column-width.
+
 window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
@@ -254,7 +272,9 @@ debug {
     honor-xdg-activation-with-invalid-serial
 }
 
+
 // Custom Binds
+
 binds {
     Mod+B hotkey-overlay-title="Zen" { spawn "zen-browser"; }
     Mod+E hotkey-overlay-title="File Explorer" { spawn "nemo"; }
@@ -266,6 +286,7 @@ binds {
 
 
 // Override to disable super+tab
+
 recent-windows {
     binds {
         Alt+Tab         { next-window scope="output"; }
@@ -281,11 +302,12 @@ recent-windows {
 
 
 // Include dms files
+
 //include optional=true "dms/colors.kdl"
 include optional=true "dms/layout.kdl"
 include optional=true "dms/alttab.kdl"
 include optional=true "dms/binds.kdl"
 include optional=true "dms/outputs.kdl"
 include optional=true "dms/cursor.kdl"
-include optional=true "dms/input.kdl"
+//include optional=true "dms/input.kdl"
 include "dms/windowrules.kdl"
